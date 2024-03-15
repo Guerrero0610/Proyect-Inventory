@@ -1,0 +1,28 @@
+.img-container {
+    width: 150px;
+    /*Altura*/
+    height: 150px;
+    /*Ancho*/
+    background-color: rgb(250, 250, 250);
+    /*Donde esta Ubicado*/
+    border-radius: 50%;
+    /*50% para un circulo y px solo puntas y para cada punta individual 10px 5px 0 20px se lee izquierda primero de arriba en sentido de un reloj*/
+    background-image: url(Media/Logo\ Inventario.png);
+    background-size: contain;
+    /*Contain la imagen llena el contenido del elemento*/
+    background-repeat: no-repeat;
+    /*Para que no se repita la imagen dentro del contenedor*/
+    background-position: center;
+    /*Para centrar la imagen*/
+}
+
+.main-container {
+    display: flex;
+    /*Ubicar objetos de un contenedor*/
+    flex-direction: column;
+    /*Indicar a que dirección se quiere el contenedor*/
+    align-items: center;
+    /*Centrar contenedor*/
+    height: 100vh;
+    justify-content: center;
+}
